@@ -1,0 +1,4 @@
+apiVersion: "opendj.gotechsystems.com/v1alpha1"
+kind: "OpenDj"
+metadata:
+  name: "example"

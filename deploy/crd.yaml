@@ -1,0 +1,13 @@
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: opendjs.opendj.gotechsystems.com
+spec:
+  group: opendj.gotechsystems.com
+  names:
+    kind: OpenDj
+    listKind: OpenDjList
+    plural: opendjs
+    singular: opendj
+  scope: Namespaced
+  version: v1alpha1
